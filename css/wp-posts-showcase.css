@@ -1,0 +1,184 @@
+input.wp-posts-showcase-field:required,
+select.wp-posts-showcase-field:required {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+input.wp-posts-showcase-field:required:invalid,
+input.wp-posts-showcase-field:focus:invalid,
+textarea.wp-posts-showcase-field:required:invalid,
+textarea.wp-posts-showcase-field:focus:invalid,
+select.wp-posts-showcase-field:required:invalid,
+select.wp-posts-showcase-field:focus:invalid,
+.wp-posts-showcase-field.field-invalid {
+    border-color: #E57337;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #FEEAEB;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #FEEAEB;
+}
+
+select.wp-posts-showcase-field {
+    width: 89%;
+}
+.wp-posts-showcase-left-sidebar .wp-posts-showcase-form {
+    overflow: hidden;
+    clear: both;
+}
+
+.wp-posts-showcase-form table {
+    font-size: 12px;
+}
+
+.wp-posts-showcase-form h2 {
+    color: #A6CF38;
+}
+
+.wp-posts-showcase-form{
+    width: 100%;
+    float:left;
+}
+
+.wp-posts-showcase-form table {
+    width: 100%;
+    background: #fff none repeat scroll 0 0;    
+    float: left;
+    padding: 2%;
+    width: 100%;
+   
+}
+
+.wp-posts-showcase-maindiv{
+    background:#fff;
+    float:left; 
+    width:100%; 
+    padding:1% 2%; 
+    border-radius:8px; 
+    border: 1px solid #ccc;
+}
+
+.wp-posts-showcase-form table thead tr th {
+    border-bottom: 1px solid #A6CF38;
+    color: #A6CF38;
+}
+
+.wp-posts-showcase-form table tbody tr th {
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 10px;
+    width: 200px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.wp-posts-showcase-form table tbody tr td {
+    margin-bottom: 9px;
+    padding: 15px 10px;
+    line-height: 1.3;
+    vertical-align: middle;
+}
+
+.wp-posts-showcase-form table tbody tr th,
+.wp-posts-showcase-form table tbody tr td {
+    border-top: 1px solid #E5E5E5;
+    vertical-align: top;
+}
+.wp-posts-showcase-form table > tbody > tr:first-child > th:first-child{
+    vertical-align: top;
+    border-top:none;
+}
+.wp-posts-showcase-form table > tbody > tr:last-child {
+    vertical-align: top;
+     border-bottom: 1px solid #E5E5E5;
+}
+.wp-posts-showcase-form table > tbody > tr:last-child > td{
+    vertical-align: top;
+    border-bottom: 1px solid #E5E5E5;
+}
+.wp-posts-showcase-form table > tbody > tr:first-child > td{
+    vertical-align: top;
+    border-top:none;
+}
+
+.wp-posts-showcase-form table textarea.widefat {
+    width: 90%;
+}
+
+.wp-posts-showcase-form fieldset {
+    border: 1px solid #dfdfdf;
+}
+
+.wp-posts-showcase-form fieldset legend {
+    padding: 10px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.wp-posts-showcase-form fieldset table tbody tr th {
+    width: 170px;
+    padding-left: 10px;
+    border: 0 none;
+}
+
+.wp-posts-showcase-form fieldset table tbody tr td {
+    border: 0 none;
+    margin-bottom: 0px;
+    padding: 10px 10px;
+}
+
+.wp-posts-showcase-left-sidebar {
+    float: left;
+    width: 62%;
+}
+
+.wp-posts-showcase-right-sidebar {
+    float: right;
+    width: 35%;
+}
+
+.widget-content .wp-posts-showcase-form h2 {
+    border-bottom: 1px solid #A6CF38;
+    padding-bottom: 10px;
+}
+
+.widget-content .wp-posts-showcase-form fieldset p {
+     margin-top: 0;
+}
+.wp-posts-showcase-form h3.heading{ 
+    background:#464647; 
+    color:#FFF !important; 
+    float:left; 
+    width:100%;
+    border-radius:8px;
+    padding:1% 2% !important; 
+    margin-bottom:2% !important;}
+
+.wp-posts-showcase-form .inner-sidebar{
+    float: left;   
+    margin-top: 3%;
+    width: 77%;
+    border-radius:8px; 
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.wp-posts-showcase-form .button-div{
+    float:left;
+}
+.wp-posts-showcase-form .inner-sidebar .postbox{
+    background: none;
+    border:none;
+}
+.wp-posts-showcase-form #post-body-content{
+    float:left !important;
+   
+}
+.wp-posts-showcase-notify {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    float: left;
+    padding: 2%;
+    width: 100%;
+    margin-bottom: 10px;
+}
